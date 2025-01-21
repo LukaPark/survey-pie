@@ -9,4 +9,6 @@ export type Question = {
     title: string;
     description: string;
     type: QuestionType;
+    options: any;
+    required: boolean;
 };
