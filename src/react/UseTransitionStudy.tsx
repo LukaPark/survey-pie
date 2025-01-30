@@ -18,7 +18,7 @@ export default function TabContainer() {
             <button onClick={() => selectTab('posts')}>Transition Posts</button>
             <button onClick={() => setTab('about')}>Direct About</button>
             <button onClick={() => setTab('posts')}>Direct Posts</button>
-            {isPending && <p>Loading...</p>}
+            {isPending && <p>Loading</p>}
             {tab === 'about' && <div>About Tab</div>}
             {tab === 'posts' && <div>Posts Tab</div>}
         </>
